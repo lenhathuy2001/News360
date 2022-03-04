@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule "index.html" "index.php"
+RewriteRule "^(.*)-(.*).html$" "danhmuc.php?danhmuc_id=$1&tieude=$2"
+RewriteRule "^baiviet/(.*)-(.*)$" "baiviet.php?baiviet_id=$1&baiviet=$2"
